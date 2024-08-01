@@ -1,9 +1,0 @@
-{
-  "reviewers": [
-    "benesv",
-    "ruzicka",
-    "havrda",
-    "leopold-chmielewski"
-  ],
-  "rebaseWhen": "behind-base-branch"
-}
