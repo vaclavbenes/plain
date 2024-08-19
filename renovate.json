@@ -1,4 +1,10 @@
 {
   "rebaseWhen": "behind-base-branch",
-  "prConcurrentLimit": 2
+  "prConcurrentLimit": 2,
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "versioning": "semver"
+    }
+  ]
 }
