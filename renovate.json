@@ -1,0 +1,4 @@
+{
+  "rebaseWhen": "behind-base-branch",
+  "prConcurrentLimit": 2
+}
