@@ -13,5 +13,11 @@
       "versioning": "semver"
     }
   ],
-  "labels": ["renovate"]
+  "labels": ["renovate"],
+  "gradle-wrapper": {
+    "registryUrls": [
+      "https\\://services.gradle.org/distributions",
+      "https\\://artifactory.ida.avast.com/artifactory/re-generic-local"
+    ]
+  }
 }
