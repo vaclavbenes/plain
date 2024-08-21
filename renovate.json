@@ -23,5 +23,14 @@
     "defaultRegistryUrls": [
       "https://artifactory.ida.avast.com/artifactory/re-generic-local"
     ]
+  },
+  "postUpgradeTasks": {
+    "commands": [
+      "./gradlew dependencies --write-locks"
+    ],
+    "fileFilters": [
+      "gradle.lockfile"
+    ],
+    "executionMode": "branch"
   }
 }
