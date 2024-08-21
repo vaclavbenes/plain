@@ -13,9 +13,5 @@
       "versioning": "semver"
     }
   ],
-  "kotlin-script": {
-    "fileMatch": [
-      "^.*\\.kts$"
-    ]
-  }
+  "labels": ["renovate"]
 }
