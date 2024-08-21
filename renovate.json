@@ -1,9 +1,14 @@
 {
-  "rebaseWhen": "behind-base-branch",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
   "prConcurrentLimit": 2,
   "packageRules": [
     {
-      "matchDatasources": ["maven"],
+      "matchDatasources": [
+        "maven"
+      ],
       "versioning": "semver"
     }
   ]
