@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "prConcurrentLimit": 2,
+  "prConcurrentLimit": 5,
   "packageRules": [
     {
       "automerge": true,
