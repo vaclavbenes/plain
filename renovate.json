@@ -6,7 +6,11 @@
   "prConcurrentLimit": 5,
   "packageRules": [
     {
-      "automerge": true
+      "automerge": true,
+      "matchDatasources": [
+        "maven"
+      ],
+      "versioning": "semver"
     }
   ],
   "labels": ["renovate"]
