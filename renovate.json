@@ -11,5 +11,8 @@
       ],
       "versioning": "semver"
     }
-  ]
+  ],
+  "kotlin-script": {
+    "fileMatch": ["^.*\\.kts$"]
+  }
 }
