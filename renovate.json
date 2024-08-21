@@ -13,24 +13,5 @@
       "versioning": "semver"
     }
   ],
-  "labels": ["renovate"],
-  "gradle-wrapper": {
-    "enabled": true,
-    "fileMatch": [
-      "(^|/)gradle/wrapper/gradle-wrapper\\.properties$"
-    ],
-    "versioning": "gradle",
-    "defaultRegistryUrls": [
-      "https://artifactory.ida.avast.com/artifactory/re-generic-local"
-    ]
-  },
-  "postUpgradeTasks": {
-    "commands": [
-      "./gradlew dependencies --write-locks"
-    ],
-    "fileFilters": [
-      "gradle.lockfile"
-    ],
-    "executionMode": "branch"
-  }
+  "labels": ["renovate"]
 }
