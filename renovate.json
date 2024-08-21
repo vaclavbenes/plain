@@ -19,6 +19,9 @@
     "fileMatch": [
       "(^|/)gradle/wrapper/gradle-wrapper\\.properties$"
     ],
-    "versioning": "gradle"
+    "versioning": "gradle",
+    "defaultRegistryUrls": [
+      "https://artifactory.ida.avast.com/artifactory/re-generic-local"
+    ]
   }
 }
