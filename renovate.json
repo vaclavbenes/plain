@@ -13,5 +13,12 @@
       "versioning": "semver"
     }
   ],
-  "labels": ["renovate"]
+  "labels": ["renovate"],
+  "gradle-wrapper": {
+    "enabled": true,
+    "fileMatch": [
+      "(^|/)gradle/wrapper/gradle-wrapper\\.properties$"
+    ],
+    "versioning": "gradle"
+  }
 }
