@@ -6,6 +6,7 @@
   "prConcurrentLimit": 2,
   "packageRules": [
     {
+      "automerge": true,
       "matchDatasources": [
         "maven"
       ],
@@ -13,6 +14,8 @@
     }
   ],
   "kotlin-script": {
-    "fileMatch": ["^.*\\.kts$"]
+    "fileMatch": [
+      "^.*\\.kts$"
+    ]
   }
 }
