@@ -10,14 +10,9 @@
       "matchDatasources": [
         "maven"
       ],
-      "versioning": "semver"
+      "versioning": "semver",
+      "bumpVersion": "patch"
     }
   ],
-  "labels": ["renovate"],
-  "gradle-wrapper": {
-    "registryUrls": [
-      "https\\://services.gradle.org/distributions",
-      "https\\://artifactory.ida.avast.com/artifactory/re-generic-local"
-    ]
-  }
+  "labels": ["renovate"]
 }

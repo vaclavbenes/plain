@@ -49,6 +49,8 @@ android {
     }
 }
 
+version = "1.0"
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
